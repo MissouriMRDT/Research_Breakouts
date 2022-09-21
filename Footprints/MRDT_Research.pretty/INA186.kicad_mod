@@ -1,6 +1,6 @@
 (footprint "INA186" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 632A2F6F)
+  (tedit 632A9F31)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -2.13) (layer "F.SilkS")
     (effects (font (size 0.8 0.8) (thickness 0.15)))
@@ -24,4 +24,9 @@
   (pad "4" smd roundrect (at 1.1 0.65) (size 0.9 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 8c514922-ffe1-4e37-a260-e807409f2e0d))
   (pad "5" smd roundrect (at 1.1 0) (size 0.9 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 40976bf0-19de-460f-ad64-224d4f51e16b))
   (pad "6" smd roundrect (at 1.1 -0.65) (size 0.9 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp e21aa84b-970e-47cf-b64f-3b55ee0e1b51))
+  (model "C:/Users/emsbb/OneDrive/Documents/GitHub/Research_Breakouts/3D Models/INA186A1IDCKR.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

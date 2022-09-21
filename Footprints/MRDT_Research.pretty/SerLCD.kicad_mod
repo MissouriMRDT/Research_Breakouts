@@ -1,6 +1,6 @@
 (footprint "SerLCD" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 5DD89560)
+  (tedit 632A9F60)
   (attr through_hole)
   (fp_text reference "REF**" (at -5.08 0) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -20,7 +20,7 @@
   (pad "1" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask) (tstamp 511fa4ef-4ebe-4ca1-966d-9657d9b36b0e))
   (pad "2" thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask) (tstamp c8da56b3-938b-43d3-bbcf-9936125fd720))
   (pad "3" thru_hole circle (at 5.08 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask) (tstamp cdd9eaaa-fa7b-4415-a948-290792caa9a9))
-  (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_03_Vertical.stp"
+  (model "C:/Users/emsbb/OneDrive/Documents/GitHub/Research_Breakouts/3D Models/Molex_SL_03_Vertical.stp"
     (offset (xyz -2.539999962 -2.539999962 13.3349998))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
