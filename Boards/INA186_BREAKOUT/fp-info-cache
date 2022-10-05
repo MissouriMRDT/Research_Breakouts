@@ -1,4 +1,4 @@
-20190962141665337
+20195953415581003
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57505,12 +57505,33 @@ INA186
 6
 6
 MRDT_Research
+MOLEX_SL_02_Vertical
+
+
+0
+2
+2
+MRDT_Research
+MOLEX_SL_03_Vertical
+
+
+0
+3
+3
+MRDT_Research
 SerLCD
 
 
 0
 3
 3
+MRDT_Research
+Teensy 4.1
+
+
+0
+65
+65
 MRDT_Sensors
 ACS759ECB_PFF_Leadform_5pins
 Allegro, Hallsensor, Through hole, Package CB-PFF,

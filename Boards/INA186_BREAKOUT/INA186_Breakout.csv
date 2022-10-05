@@ -1,0 +1,6 @@
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Part,LibPart,Footprint,Datasheet
+1,1,R1,SHUNT,Device:R,Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal,INA186
+2,1,U1,INA186,MRDT_Research:INA186,MRDT_Research:INA186,
+3,2,-,MOLEX 2 Pin,MRDT_Research:MOLEX_SL_2_Vertical,MOLEX_SL_2_Vertical,

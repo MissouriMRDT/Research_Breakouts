@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\emsbb\OneDrive\Documents\GitHub\Research_Breakouts\Boards\INA186_BREAKOUT\INA186_Breakout.kicad_sch</source>
+    <date>10/5/2022 6:12:05 PM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>INA186_Breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="INA186_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17f21459-9834-4225-a025-f28bc3f7d0ce</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>INA186</value>
+      <footprint>MRDT_Research:INA186</footprint>
+      <libsource lib="MRDT_Research" part="INA186" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="INA186_Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4c7432c-b27a-4af3-82de-cdfd6c70d7f6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Research" part="INA186">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA186</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VS" type="input"/>
+        <pin num="4" name="IN+" type="input"/>
+        <pin num="5" name="IN-" type="input"/>
+        <pin num="6" name="OUT" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Research">
+      <uri>C:/Users/emsbb/OneDrive/Documents/GitHub/Research_Breakouts/Symbols/MRDT_Research.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="2" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="4" name="OUT">
+      <node ref="U1" pin="6" pinfunction="OUT" pintype="input"/>
+    </net>
+    <net code="5" name="REF">
+      <node ref="U1" pin="1" pinfunction="REF" pintype="input"/>
+    </net>
+    <net code="6" name="VCC">
+      <node ref="U1" pin="3" pinfunction="VS" pintype="input"/>
+    </net>
+  </nets>
+</export>

@@ -1,6 +1,6 @@
 (footprint "INA186" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 632A9F31)
+  (tedit 632AA26A)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -2.13) (layer "F.SilkS")
     (effects (font (size 0.8 0.8) (thickness 0.15)))

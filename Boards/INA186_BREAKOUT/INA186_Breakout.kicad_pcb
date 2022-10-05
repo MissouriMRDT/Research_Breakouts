@@ -909,7 +909,7 @@
   )
 
   (footprint "MRDT_Research:INA186" (layer "F.Cu")
-    (tedit 632A93AC) (tstamp dc680818-59ed-433e-9f8d-6e4670402247)
+    (tedit 632AA2AD) (tstamp dc680818-59ed-433e-9f8d-6e4670402247)
     (at 59.4868 34.5948)
     (property "Sheetfile" "INA186_Breakout.kicad_sch")
     (property "Sheetname" "")
@@ -943,7 +943,7 @@
       (net 7 "Net-(R1-Pad1)") (pinfunction "IN-") (pintype "input") (tstamp 387faa62-d4c9-40f0-b2b0-efadcb1d34bd))
     (pad "6" smd roundrect (at 1.1 -0.65) (size 0.9 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
       (net 4 "OUT") (pinfunction "OUT") (pintype "input") (tstamp d779e44d-c609-41f7-8690-1c79e740654a))
-    (model "C:/Users/emsbb/OneDrive/Documents/GitHub/Research_Breakouts/Footprints/MRDT_Research.pretty/INA186A1IDCKR.step"
+    (model "C:/Users/emsbb/OneDrive/Documents/GitHub/Research_Breakouts/3D Models/INA186A1IDCKR.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
